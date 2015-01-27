@@ -1,4 +1,4 @@
-module Control.Monad.ST.Unsafe where
+module Control.Monad.ST.UnsafePerform where
 
 import Control.Monad.ST
 import System.IO.Unsafe 

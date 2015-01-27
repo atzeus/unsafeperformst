@@ -1,5 +1,5 @@
 Name:                unsafeperformst
-Version:             0.9
+Version:             0.9.2
 Synopsis:	         Like unsafeperformIO, but for the ST monad.
 Description:         Like unsafeperformIO, but for the ST monad.
 License:             BSD3
@@ -10,11 +10,11 @@ Homepage:            https://github.com/atzeus/unsafeperformst
 Build-Type:          Simple
 Cabal-Version:       >=1.6
 Data-files:          ChangeLog
-Category:            Data, Data Structures
+Category:            Unsafe
 Tested-With:         GHC==7.6.3
 Library
-  Build-Depends: base >= 2 && <= 6, containers
-  Exposed-modules: Control.Monad.ST.Unsafe
+  Build-Depends: base >= 2 && <= 6
+  Exposed-modules: Control.Monad.ST.UnsafePerform
   Extensions:	
 
 source-repository head
